@@ -63,19 +63,25 @@ const Header = () => {
                 href="#about"
                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
               >
-                À PROPOS
+                À propos
               </a>
               <a
                 href="#exchange"
                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
               >
-                Proposer un échange
+                Nos Tarifs
               </a>
               <a
                 href="#seo"
                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
               >
-                Nos Services SEO
+                Acheter des crédits
+              </a>
+              <a
+                href="#exchange"
+                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
+              >
+                Proposer un backlink
               </a>
               <div className="pt-4 space-y-2">
                 <button className="block w-full px-3 py-2 text-left text-gray-300 hover:text-white transition-colors duration-200">

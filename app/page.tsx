@@ -50,10 +50,10 @@ const MentorshipPage = () => {
       {/* Hero Section */}
       <section className="px-6 py-20 md:px-20 pt-28">
         <div className="relative grid md:grid-cols-2 gap-12 items-center overflow-hidden">
-          <div className="text-white space-y-6">
+            <div className="text-white space-y-6 mt-0 lg:-mt-12 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold">
               <span className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-transparent bg-clip-text">
-                Boostez votre visibilité
+              Boostez votre visibilité
               </span>{' '}
               avec les meilleurs backlinks
             </h1>
@@ -63,28 +63,28 @@ const MentorshipPage = () => {
             </p>
 
             {!isSubscribed ? (
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="your@email.com"
-            className="px-4 py-2 bg-transparent border-b-2 border-blue-400 text-white focus:outline-none focus:border-green-400"
-          />
-          <button
-            type="submit"
-            className="px-6 py-2 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
-          >
-            <span>Rechercher des backlinks</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
+              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="your@email.com"
+                className="px-4 py-2 bg-transparent border-b-2 border-blue-400 text-white focus:outline-none focus:border-green-400"
+              />
+              <button
+                type="submit"
+                className="px-6 py-2 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
+              >
+                <span>Rechercher des backlinks</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
               </form>
             ) : (
               <div className="text-2xl text-green-400 font-semibold">
-          Subscribed! 🎉
+              Subscribed! 🎉
               </div>
             )}
-          </div>
+            </div>
 
           <div className="relative">
             <Image
