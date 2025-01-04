@@ -1,11 +1,16 @@
 Template Landing Page Next.js + Tailwind CSS + React
+
 Bienvenue dans My Backlink Exchange, un template moderne et performant pour créer des landing pages avec Next.js, Tailwind CSS et React.
 
 Fonctionnalités
 Framework moderne : Basé sur Next.js (v15.1.3) pour des performances optimales et un rendu côté serveur.
+
 Style rapide et efficace : Intégration de Tailwind CSS pour un développement de styles rapide et réactif.
+
 Composants dynamiques : Utilisation de React pour créer des interfaces utilisateur interactives.
+
 Prêt pour la production : Support pour la compilation TypeScript, ESLint, et Turbopack pour le développement rapide.
+
 Installation
 Assurez-vous d'avoir installé Node.js (version 16 ou supérieure) sur votre machine.
 
@@ -32,15 +37,21 @@ npm run dev : Lance le serveur de développement avec Turbopack.
 npm run build : Compile le projet pour la production.
 npm run start : Démarre le serveur en mode production après la compilation.
 npm run lint : Analyse le code pour détecter et corriger les erreurs avec ESLint.
+
 Technologies utilisées
+
 Next.js (v15.1.3) : Framework React pour le développement d'applications web modernes.
+
 React (v19.0.0) : Bibliothèque JavaScript pour la construction d'interfaces utilisateur.
+
 Tailwind CSS (v3.4.17) : Framework CSS utilitaire pour un style rapide et efficace.
+
 TypeScript (v5.x) : Super-ensemble de JavaScript typé pour des développements plus robustes.
+
 ESLint : Outil d'analyse statique pour garantir la qualité du code.
 Structure du projet
 csharp
-Copier le code
+
 my-backlink-exchange/
 ├── public/          # Fichiers publics (images, favicon, etc.)
 ├── src/             # Source principale du projet
@@ -50,6 +61,7 @@ my-backlink-exchange/
 ├── package.json     # Gestion des dépendances
 ├── tailwind.config.js # Configuration Tailwind CSS
 └── tsconfig.json    # Configuration TypeScript
+
 Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou des pull requests.
 
