@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center mt-4">
           <Link
-            href="https://still-inov.com"
+            href="https://stillinov.com"
             className="text-sm hover:text-[#40F8B5] transition-colors"
           >
             Site réalisé avec ❤️ par Still-inov Agency 🚀
