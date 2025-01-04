@@ -1,37 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Template Landing Page Next.js + Tailwind CSS + React
+Bienvenue dans My Backlink Exchange, un template moderne et performant pour créer des landing pages avec Next.js, Tailwind CSS et React.
 
-## Getting Started
+Fonctionnalités
+Framework moderne : Basé sur Next.js (v15.1.3) pour des performances optimales et un rendu côté serveur.
+Style rapide et efficace : Intégration de Tailwind CSS pour un développement de styles rapide et réactif.
+Composants dynamiques : Utilisation de React pour créer des interfaces utilisateur interactives.
+Prêt pour la production : Support pour la compilation TypeScript, ESLint, et Turbopack pour le développement rapide.
+Installation
+Assurez-vous d'avoir installé Node.js (version 16 ou supérieure) sur votre machine.
 
-First, run the development server:
+Clonez le dépôt :
 
-```bash
+bash
+Copier le code
+git clone https://github.com/votre-utilisateur/nom-du-repo.git
+cd nom-du-repo
+Installez les dépendances :
+
+bash
+Copier le code
+npm install
+Démarrez le serveur de développement :
+
+bash
+Copier le code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Le site sera disponible à l'adresse suivante : http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Scripts disponibles
+npm run dev : Lance le serveur de développement avec Turbopack.
+npm run build : Compile le projet pour la production.
+npm run start : Démarre le serveur en mode production après la compilation.
+npm run lint : Analyse le code pour détecter et corriger les erreurs avec ESLint.
+Technologies utilisées
+Next.js (v15.1.3) : Framework React pour le développement d'applications web modernes.
+React (v19.0.0) : Bibliothèque JavaScript pour la construction d'interfaces utilisateur.
+Tailwind CSS (v3.4.17) : Framework CSS utilitaire pour un style rapide et efficace.
+TypeScript (v5.x) : Super-ensemble de JavaScript typé pour des développements plus robustes.
+ESLint : Outil d'analyse statique pour garantir la qualité du code.
+Structure du projet
+csharp
+Copier le code
+my-backlink-exchange/
+├── public/          # Fichiers publics (images, favicon, etc.)
+├── src/             # Source principale du projet
+│   ├── components/  # Composants réutilisables
+│   ├── pages/       # Pages Next.js
+│   └── styles/      # Fichiers de style
+├── package.json     # Gestion des dépendances
+├── tailwind.config.js # Configuration Tailwind CSS
+└── tsconfig.json    # Configuration TypeScript
+Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou des pull requests.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Forkez le projet.
+Créez une branche pour votre fonctionnalité (git checkout -b ma-fonctionnalite).
+Faites vos modifications et validez-les (git commit -m "Ajout de ma fonctionnalité").
+Poussez votre branche (git push origin ma-fonctionnalite).
+Créez une pull request.
+Licence
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le partager.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Team-Backlink
+Créé avec ❤️ par Still-inov Agency.
